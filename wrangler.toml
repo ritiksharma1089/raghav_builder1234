@@ -1,0 +1,36 @@
+name = "raghav_backend"
+main = "src/index.ts"
+compatibility_date = "2025-01-06"
+
+ compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+name = "backend"
+compatibility_date = "2024-12-18"
+
+
+
+ DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZDJkNGQwYmMtNWYwMC00MmY5LThkYTgtYTY3Mjc1ZjdiM2U3IiwidGVuYW50X2lkIjoiYWMyNzVkNjcyM2FjNWY1ODEzMTkxZTY4NjdmZDExMzY1ZDExMDJmMjliN2Y2MjI2NDIyYTg1ZGU4ZDFhMjJjNCIsImludGVybmFsX3NlY3JldCI6Ijc3MDE5OTQzLTI3MjMtNDZjZi1hMWY5LTRlYWVkYmNjZDUwNCJ9.cf0YfNeBuHQ0Y_C7fJJX-i47i_uNiSPkjZ_dXonFbxE"
+
+JWT_SECRET="raghav3427"
+# MY_VAR = "my-variable"
+
+[[kv_namespaces]]
+binding = "MY_KV"
+id = "625476be246643809d0cf2b7af703830"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
